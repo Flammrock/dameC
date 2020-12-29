@@ -82,6 +82,8 @@ jeu* game = NULL; // cette variable contiendra le jeu
 
 //[ENTRY_POINT]
 int main() {
+    
+  resetTerm();
 
   // On initialise le jeu
   game_init();
